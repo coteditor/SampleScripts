@@ -12,3 +12,12 @@ Usage
 1. Select __Scripts__ (script icon) > __Open Scripts Folder__ in the CotEditor menu.
 2. Put scripts in the folder.
 1. Select __Scripts__ (script icon) > __Update Script Menu__ in the CotEditor menu.
+
+
+Acknowledgements
+------------------------------
+
+### Script contributors
+- Ruby (Template): s.sawada <http://www.mouseup.net>
+- Ruby (Ruby_scripts): yosito
+- Python: Yuhei Kuratomi <http://www.tomapd.net/blog>
