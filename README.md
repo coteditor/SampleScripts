@@ -17,10 +17,10 @@ Usage
 Acknowledgements
 ------------------------------
 
-### Script contributors
+### Script Contributors
 
 - Ruby (Template): s.sawada <http://www.mouseup.net>
-- Ruby (Ruby_scripts): yosito
+- Ruby (Ruby Scripts): yosito
 
 
 License
