@@ -11,6 +11,7 @@ http://www001.upp.so-net.ne.jp/hanaden/osa/samples.html#_Smart_Quote
 modified by 1024jp on 2014-11-22
 *)
 
+--
 property format : "%Y-%m-%dT%H:%M:%S%z"
 
 --

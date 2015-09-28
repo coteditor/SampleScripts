@@ -1,10 +1,9 @@
 #! /usr/bin/php -q
 <?php
-#
 # Sample PHP Script for CotEditor
 #
 # Transform the half-width alphabet in the selection to full-width.
-#
+
 # %%%{CotEditorXInput=Selection}%%%
 # %%%{CotEditorXOutput=ReplaceSelection}%%%
 
@@ -18,4 +17,3 @@ do {
 
 $OUTPUT = mb_convert_kana($INPUT, "R", "UTF-8");
 fwrite(STDOUT, $OUTPUT);
-?>

@@ -1,10 +1,22 @@
-(* written by nakamuxu. 2005.03.14 *)
+(*
+<.applescript
+Sample Script for CotEditor
+
+Description:
+Insert < at the selection as entity reference.
+
+written by nakamuxu on 2005-03-14
+modified by 1024jp on 2015
+*)
+
 --
 property newStr : "&lt;"
---
+
 --
 tell application "CotEditor"
-	if exists front document then
-		set contents of selection of front document to newStr
-	end if
+	if not (exists front document) then return
+	
+	tell front document
+		set contents of selection to newStr
+	end tell
 end tell

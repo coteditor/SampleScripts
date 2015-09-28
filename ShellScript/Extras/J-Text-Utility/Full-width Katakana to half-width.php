@@ -13,4 +13,3 @@ do {
 
 $OUTPUT = mb_convert_kana($INPUT, "k", "UTF-8");
 fwrite(STDOUT, $OUTPUT);
-?>

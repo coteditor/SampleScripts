@@ -4,7 +4,7 @@ Sample Scripts for CotEditor
 
 This is a set of sample scripts for CotEditor.
 
-For details of the CotEditor scripting, see "CotEditor Scripting Manual" in Help menu.
+For details of the CotEditor scripting, see "CotEditor Scripting Manual" in the Help menu.
 
 Usage
 ------------------------------
@@ -18,6 +18,16 @@ Acknowledgements
 ------------------------------
 
 ### Script contributors
+
 - Ruby (Template): s.sawada <http://www.mouseup.net>
 - Ruby (Ruby_scripts): yosito
 - Python: Yuhei Kuratomi <http://www.tomapd.net/blog>
+
+
+License
+-----------------------------
+
+© 2005 nakamuxu,
+© 2014-2015 1024jp
+
+The scripts are distributed under the terms of the __Apache License, Version 2.0__. See the bundled [LICENSE](LICENSE) for details.
