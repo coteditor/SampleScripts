@@ -21,7 +21,6 @@ Acknowledgements
 
 - Ruby (Template): s.sawada <http://www.mouseup.net>
 - Ruby (Ruby_scripts): yosito
-- Python: Yuhei Kuratomi <http://www.tomapd.net/blog>
 
 
 License

@@ -1,28 +1,53 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-# Sample Python Script for CotEditor
-#
-# Give line numbers for the selection.
-# provided by Yuhei Kuratomi (http://www.tomapd.net/blog)
+"""Sample Python Script for CotEditor
+
+Give line numbers to the selection.
+
+Created by 1024jp on 2015-09-28.
+"""
 
 # %%%{CotEditorXInput=Selection}%%%
 # %%%{CotEditorXOutput=ReplaceSelection}%%%
 
-import sys, math
+import math
+import sys
 
-def lineFormat(lineCount):
-    format = "%%%dd| %%s" % int(math.ceil(math.log10(lineCount)))
-    return format
 
-def addLineNumber(text):
-    newText = []
+def digit(number):
+    """Return digit of number.
+
+    Args:
+        number (int): Number to count digits.
+    """
+    return int(math.log10(number)) + 1
+
+
+def add_line_number(text, separator="|"):
+    """Prepend line numbers to each line.
+
+    Args:
+        text (str): Text to process.
+        separator (str): Separator character between line number and line.
+    """
     lines = text.splitlines(True)
-    format = lineFormat(len(lines))
-    for index, line in enumerate(lines):
-        line = format % (index + 1, line)
-        newText.append(line)
-    return "".join(newText)
+    pad_length = digit(len(lines))
+    new_text = ""
 
-preText = unicode(sys.stdin.read(), "utf-8")
-postText = addLineNumber(preText)
-sys.stdout.write(postText.encode("utf-8"))
+    for index, line in enumerate(lines):
+        line_number = str(index + 1).rjust(pad_length)
+        new_text += line_number + separator + " " + line
+
+    return new_text
+
+
+def main():
+    in_text = sys.stdin.read()
+    if in_text:
+        out_text = add_line_number(in_text)
+        sys.stdout.write(out_text)
+
+
+if __name__ == "__main__":
+    main()
