@@ -10,7 +10,7 @@
 to_find = Array.new
 replace_to = Array.new
 
-while gets
+while $stdin.gets
 	if $. == 1
 		$_.chomp.split("\t").each_with_index do |item, i|
 			if i % 2 == 0
@@ -44,7 +44,7 @@ exit
 #replace_to = Array.new
 #whole = ""
 #
-#while gets
+#while $stdin.gets
 #	if $. == 1
 #		$_.chomp.split("\t").each_with_index do |item, i|
 #			if i % 2 == 0

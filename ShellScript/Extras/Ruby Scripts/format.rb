@@ -8,7 +8,7 @@
 # default
 $line_len = 60
 
-while gets
+while $stdin.gets
 	$_.chomp!
 	if $. == 1
 		if /^\d+$/ =~ $_

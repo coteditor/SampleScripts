@@ -4,7 +4,7 @@
 
 # 選択範囲の行頭に > を付加します。
 
-while gets
+while $stdin.gets
 	print $_.sub(/^/, ">")
 end
 

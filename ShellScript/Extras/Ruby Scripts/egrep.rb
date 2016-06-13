@@ -15,7 +15,7 @@ rev_flag = nil
 inv_flag = nil
 num_flag = nil
 
-while gets
+while $stdin.gets
 	if $. == 1
 		cond = $_.chomp.split("\t")
 		if cond[1]

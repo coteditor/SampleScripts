@@ -13,7 +13,7 @@ whole = Array.new
 rev_flag = nil
 inv_flag = nil
 
-while gets("")
+while $stdin.gets("")
 	if $. == 1
 		cond = $_.chomp.split("\t")
 		if cond[1]
