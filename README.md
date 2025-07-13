@@ -18,7 +18,7 @@ Acknowledgements
 
 ### Script Contributors
 
-- Ruby (Template): s.sawada <http://www.mouseup.net>
+- Ruby (Template): s.sawada
 - Ruby (Ruby Scripts): yosito
 - AppleScript Hook Template: Kaito Udagawa <https://github.com/umireon>
 
