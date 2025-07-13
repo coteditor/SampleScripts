@@ -4,7 +4,7 @@ Sample Scripts for CotEditor
 
 This is a set of sample scripts for CotEditor.
 
-For details of the CotEditor scripting, see "CotEditor Scripting Manual" in the Help menu.
+For details of the CotEditor scripting, see “CotEditor Scripting Guide” > “About Scripting” in the CotEditor's Help menu.
 
 Usage
 ------------------------------
@@ -27,6 +27,6 @@ License
 -----------------------------
 
 © 2005 nakamuxu,
-© 2014-2016 1024jp
+© 2014-2025 1024jp
 
 The scripts are distributed under the terms of the __Apache License, Version 2.0__. See the bundled [LICENSE](LICENSE) for details.
